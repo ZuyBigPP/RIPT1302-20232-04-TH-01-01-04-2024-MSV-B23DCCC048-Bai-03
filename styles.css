@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to 45deg, #133da6, #9f7f69);
+    background-size: 200% 200%; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+
+
+body {
+    /* Other styles */
+    background: linear-gradient(270deg, #092d2f, #1f3b4d);
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
+    /* Other styles */
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+.container:hover {
+    transform: scale(1.01); /* Add scale effect on hover */
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+.input-container:hover {
+    transform: scale(1.01); /* Add scale effect on hover */
+}
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #092d2f;
+    background-color: rgba(23, 21, 110, 0.1); /* Make input field semi-transparent */
+    color: #fff; /* Make input text color white */
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.1); /* Add shadow to the input field */
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+.input-container input:focus {
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5); /* Add brighter shadow to the input field when it's focused */
+}
+.GetWTBTN {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #092d2f, #1f3b4d);
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.GetWTBTN:hover {
+    background: linear-gradient(to right, #1f3b4d, #092d2f);
+}
+
+.GetWTBTN:active {
+    transform: scale(0.95);
+}
